@@ -1,0 +1,162 @@
+/***************** FICHE DE PRESENTATION KOALA VOLANT ******************/
+
+.fichepres2{ 
+	width:530px; 
+	margin:0 auto; 
+	padding:20px; 
+	background-repeat: no-repeat;
+	background-image:linear-gradient(to bottom, transparent 0%, var(--neutralDark) 15%, var(--neutralDarker) 100%), url("https://i.servimg.com/u/f58/20/66/16/65/fondfi11.png");
+}
+
+.ficheother{ 
+	width:530px; 
+	margin:0 auto; 
+	padding-top: 10px;
+	padding:20px; 
+	background: var(--neutralDark);
+	background-image: linear-gradient(to top right, var(--neutralDarker), var(--neutralDark) 80%, rgba(140, 139, 158, 0.5)), 
+    url(https://i.servimg.com/u/f58/20/66/16/65/1000_f10.jpg);	
+    background-position: left;
+}
+
+.fichepres2 *, .ficheother * { 
+	box-sizing:border-box;
+}
+
+.fichepres2 h1, .ficheother h1{ 
+	text-align:center; 
+	font-family: "Chakra Petch", sans-serif;
+	font-size:33px; 
+	letter-spacing:3px;
+	-webkit-text-stroke: 0.5px var(--textColor);
+	background-image: var(--gradientBold);
+    	color: transparent;
+	background-clip: text;
+}
+.fichepres2 h2, .ficheother h2{ text-align:center; letter-spacing:4px; font-weight:normal; margin:0; position:relative; top:-15px; }
+.fichepres2 h2 em, .ficheother h2 em{ letter-spacing:0px; color:var(--textColor); font-size:16px; font-style:italic; }
+
+.fichepres2 h3, .ficheother h3{ 
+	font-family:"Chakra Petch", sans-serif; 
+	font-size:20px; 
+	margin:0; 
+	color:var(--rose); 
+	letter-spacing:3px; 
+	background-image: var(--gradientBold);
+	border: 2px solid;
+	border-image-slice: 1;
+	border-width: 0px 0px 2px 0px;
+	border-image-source: var(--gradientBas);
+	background-color:var(--bleuF); 
+	border-radius:10px 10px 0px 0px; 
+	padding-left:15px; 
+	padding-top:5px;
+}
+
+.fichepres2 strong, .ficheother strong{ font-family:"Chakra Petch", sans-serif; color:var(--textColorAccent); letter-spacing:2px;}
+
+/* Structure Blocs */
+
+.fichepres2 .pres1 span, .fichepres2 .pres2 span, .fichepres2 .pres3 .questions span, .fichepres2 .pres3 .dragon span, .fichepres2 .pres4 span, .fichepres2 .lienpre .contentpre, .fichepres2 .predef span, .fichepres2 .predef2 span, .fichepres2 .pres5 span, .fichepres2 .pres6 span { 
+	background-color:var(--neutral); 
+}
+
+.ficheother .pres1 span, .ficheother .pres2 span, .ficheother .pres3 .questions span, .ficheother .pres3 .dragon span, .ficheother .pres4 span, .ficheother .lienpre .contentpre, .ficheother .predef span, .ficheother .predef2 span, .ficheother .pres5 span, .ficheother .pres6 span { 
+	background-color:var(--neutral); 
+}
+
+/* Partie Identité */
+.fichepres2 .pres1, .ficheother .pres1{ 
+	display:flex; 
+	justify-content:space-between; 
+}
+
+.fichepres2 .pres1 img, .ficheother .pres1 img{ 
+	max-width:150px; 
+	max-height:240px; 
+	object-fit:cover; 
+	border:3px solid var(--bleuF);
+}
+
+.fichepres2 .pres1 span, .ficheother .pres1 span{ 
+	width:350px; 
+	height:240px; 
+	overflow:auto; 
+	padding:15px; 
+}
+
+/* Partie Identité Carnet de bord */
+.fichepres2 .pres6, .ficheother .pres6{ 
+	display:flex; 
+	justify-content:space-between; 
+}
+
+.fichepres2 .pres6 img, .ficheother .pres6 img{ 
+	width:100px; 
+	height:100px; 
+	object-fit:cover; 
+	border:3px solid var(--bleuF);
+}
+
+.fichepres2 .pres6 span, .ficheother .pres6 span{ 
+	width:400px; 
+	height:240px; 
+	overflow:auto; 
+	padding:15px; 
+}
+
+.pres6_avatars {
+    display: grid;
+    align-content: space-between;
+	background-color: var(--neutral);
+	background-image: url(https://i.servimg.com/u/f58/20/66/16/65/glitch10.png);
+    background-position: center;
+}
+
+/* Partie Histoire */
+.fichepres2 .pres2, .fichepres2 .predef, .ficheother .pres2, .ficheother .predef, .fichepres2 .pres5, .ficheother .pres5,  .ficheother .predef2 {
+	margin-top:15px; 
+}
+
+.fichepres2 .pres2 span img, .ficheother .pres2 span img { 
+	float:left; 
+	width:160px; 
+	height:90px; 
+	object-fit:cover;
+	border:3px solid var(--bleuF); 
+	margin:10px 10px 0px 0px;  
+}
+.fichepres2 .pres2 span, .ficheother .pres2 span{ display:block; height: fit-content; overflow:auto; padding:15px; height:300px; text-align:justify; }
+
+/* Partie Question & Dragons */
+.fichepres2 .pres3, .ficheother .pres3{ display:flex; justify-content:space-between; margin-top:15px; }
+
+/* Partie Questions */
+.fichepres2 .pres3 .questions, .ficheother .pres3 .questions{ width:240px; }
+.fichepres2 .pres3 .questions span, .ficheother .pres3 .questions span{ display:block; height:200px; padding:10px; overflow:auto; }
+
+
+/*Partie Hors Jeu */
+.fichepres2 .pres4 div, .ficheother .pres4 div{ display:flex; justify-content:space-between; align-items:center; }
+.fichepres2 .pres4 span, .ficheother .pres4 span{ height:170px; overflow:auto; padding:15px; display:block; }
+
+/* Grand conteneur*/
+.fichepres2 .pres5 div, .ficheother .pres5 div{ display:flex; justify-content:space-between; align-items:center;}
+.fichepres2 .pres5 span, .ficheother .pres5 span{ height:fit-content; overflow:auto; padding:15px; display:block; }
+
+/* prédefs */
+.img_pres{
+	height:100px; 
+	width:100px; 
+	padding : 5px; 
+	float: left; 
+	margin-right: 10px; 
+	border : 2px solid var(--bleuF); 
+	background-repeat: no-repeat;
+}
+
+.ficheother .predef span{ display:block; height: fit-content; overflow:auto; padding:15px; height:200px; text-align:justify; }
+.ficheother .predef2 span{ display:block; height: fit-content; overflow:auto; padding:15px; height:150px; text-align:justify; }
+
+
+/*************** FIN FICHE DE PRESENTATION KOALA VOLANT **************/
